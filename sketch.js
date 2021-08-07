@@ -40,12 +40,12 @@ function draw() {
   else if(keyDown(UP_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     writePosition(0,-1);
-    balloon.scale = 0.7;
+    balloon.scale = 0.3;
   }
   else if(keyDown(DOWN_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     writePosition(0,+1)
-    balloon.scale = 0.3;
+    balloon.scale = 0.7;
   }
 }
 
